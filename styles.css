@@ -1,0 +1,125 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    
+}
+
+*, *:before *:after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 0 bottom -7.2rem;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main{
+    background-color: white;
+    width: 18vw;
+    height: 18rem;
+    margin-bottom: 6rem;
+    padding: 3rem;
+    border-radius: 5px;
+
+    
+}
+
+.route{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.country-code{
+    color: hsl(208deg 61% 52%);
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.country-name{
+    color: hsl(180deg 1% 75%);
+    font-size: 11px;
+    padding-top: 0;
+}
+
+.spacer{
+    height: 4px;
+    width: 1.5rem;
+    background: #d3e6f4; 
+}
+
+
+.destination, .take-off{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.take-off{
+    align-items: flex-start;
+}
+
+.flight-details{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 2rem;
+    margin-top: 3rem;
+}
+
+.flight{
+    color: #b5b6b6;
+    font-size: 0.6rem;
+}
+
+.arrangement{
+    font-size: 0.8rem;
+}
+
+
+.flight-info-div{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    column-gap: 2rem;
+     margin-top: 1rem;
+    
+}
+
+.flight-info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    
+}
+.info{
+    margin-bottom: 1rem;
+
+}
+
+.grey-info{
+    color: #b4b6b8;
+    font-size: 10px;
+    margin: 0;
+}
+
+.schedule{
+    margin: 0;
+    padding:5px 0;
+    font-size: 12px;
+}
+
+.barcode{
+    width: 8rem;
+    height: 8rem;
+}
